@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 30px;
+  background-color: rgb(197, 197, 196);
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 10px 15px 5px rgb(83, 83, 83);
+}
+
+.form {
+  display: flex;
+  flex-direction: column; /* organiza inputs em coluna */
+  gap: 5px; /* espaço entre linhas */
+}
+
+.txtField {
+  background-color: rgb(135, 134, 133);
+}
+
+form input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.age {
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  align-self: flex-end;
+  border-radius: 5px;
+  border: 1px solid #b7acac;
+  font-size: 20px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
